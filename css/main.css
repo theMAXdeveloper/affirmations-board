@@ -27,26 +27,21 @@ ul {
 header,
 main,
 footer {
-  /* Add a Flexbox property to make the content-wrapper a flex parent container. */
-
-  /* Add a Flexbox property to center the contents of each section. */
-
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .content-wrapper {
   width: 90%;
   max-width: 1200px;
-  /* Add a Flexbox property to make the content-wrapper a flex parent container. */
-
-  /* Add a Flexbox property to allow the flex child items to wrap. */
-
-  /* Add a Flexbox property to center the contents of each section. */
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 main .content-wrapper {
-  /* Add the gap property with a value of 20px to create space between the rows and columns. */
+  gap: 20px;
 
 }
 
@@ -54,10 +49,8 @@ main .content-wrapper {
   border-radius: 5px;
   width: 100%;
   background: #f2f1fb;
-  /* Add a Flexbox property to make every block with text a flex parent container. */
-
-  /* Add a Flexbox property to align the text in each block at its center. */
-
+  display: flex;
+  align-items: center;
   padding: 10px;
   border: 1px solid #07c0e6;
 }
@@ -84,12 +77,9 @@ img {
   }
 
   .center-wrapper {
-    /* Add a Flexbox property to make the content-wrapper a flex parent container. */
-
-    /* Add a Flexbox property to allow the flex child items to wrap. */
-
-    /* Add the Flexbox property align-content with a value of space-around to space the content vertically. */
-
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
     height: 100%;
     width: 100%;
   }
