@@ -1,20 +1,20 @@
 body {
   text-align: center;
-  background: #261e6d;
+  background: gray url(../img/ocean.jpg) no-repeat fixed;
   font-family: 'Mooli', sans-serif;
 }
 
 h1 {
   font-size: 3rem;
-  color: white;
+  color: rgb(84, 84, 84);
   font-family: 'Croissant One', cursive;
   text-decoration: underline;
-  text-decoration-color: #07c0e6;
+  text-decoration-color: #85dff1e4;
 }
 
 p,
 ul li {
-  color: #261e6d;
+  color: #3ecce5;
   font-size: 1.2rem;
   width: 100%;
 }
@@ -48,11 +48,11 @@ main .content-wrapper {
 .affirmation-block {
   border-radius: 5px;
   width: 100%;
-  background: #f2f1fb;
+  background: #103232ef;
   display: flex;
   align-items: center;
   padding: 10px;
-  border: 1px solid #07c0e6;
+  border: 1px solid #2b8748;
 }
 
 .gif-block {
